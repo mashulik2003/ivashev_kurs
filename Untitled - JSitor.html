@@ -1,0 +1,65 @@
+<!doctype html><html><head><style type="text/css">html,body {
+  margin: 0;
+  height: 100%;
+}
+
+.page-conteiner{
+  background: #141943;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.input{
+width: 596px;
+height: 70px;
+border-radius: 30px;
+border: 2px solid #B664DB;
+background: #141943;
+box-shadow: 0px 0px 250px 16.142px #4E00CD, 0px 0px 136.3px 16px rgba(236, 131, 187, 0.60);
+margin-right: 15px;
+padding: 0 45px;
+color: white;
+}
+
+.button{
+width: 222px;
+height: 70px;
+border-radius: 60px;
+border: 1px #6D13FF;
+background: #6D13FF;
+color: #FFF;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+}
+.logo{
+margin: 0 auto 62px;
+display: block;
+}</style></head><body><div id="page" class="page-conteiner">
+  <div>
+    <img class="logo"src = "https://fs01.getcourse.ru/fileservice/file/download/a/534336/sc/114/h/77dc3a73439e024e78abda56755b7397.png">
+    <div>
+    <input class="input"/> 
+    <button class="button">Поиск</button>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+	VANTA.NET({
+  el: "#page",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+</script>
+</script></body><html>
